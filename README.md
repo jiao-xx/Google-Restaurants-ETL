@@ -4,7 +4,7 @@
 This project focuses on extracting, transforming, and analyzing restaurants data in Toronto, Canada, using Google Cloud Platform (GCP). The workflow involves utilizing Google's APIs, Python, and Jupyter Notebook for ETL (Extract, Transform, Load) processes, storing and querying data in BigQuery, and finally visualizing insights using Looker Studio dashboards.
 
 ## Key Features
-- Data Extraction: Utilized Google Maps API to collect detailed information on Chinese restaurants, including name, address, ratings, phone numbers, and website URLs.
+- Data Extraction: Utilized Google Maps API to collect detailed information on restaurants, including name, address, ratings, phone numbers, and website URLs.
 - Data Transformation: Employed Python scripts to clean, format, and remove duplicate entries using Pandas within Jupyter Notebook.
 - Data Storage and Querying: Loaded the processed data into BigQuery for efficient querying and analysis.
 - Data Visualization: Designed interactive dashboards in Looker Studio to showcase key metrics such as average ratings, distribution of restaurants by rating, and contact details.
